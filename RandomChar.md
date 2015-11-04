@@ -10,7 +10,12 @@ This project is meant to simply generate a random capital letter of the Alphabet
 ```
 
 ## References and Literature
+*   Reference 1 Book: MLA
+   *   Liang, Y. Daniel. *Introduction to Java Programming: Comprehensive Version.* 10th ed. N.p.: Pearson, 2014. Print. 
 
+
+##Source Code
+```java
 /*This is code written by Patrick Matthews that is meant to 
 *generate random capital letters of the Alphabet. 
 */
@@ -30,3 +35,12 @@ public class foursixteen {
 	}
 
 }
+```
+
+## Console Output
+```
+L
+```
+
+## Summary
+In this assignment I had to create a random capital letter generator. I knew from the start that the project would use math.Random but I wasn't sure what else I would need. I used the book for reference and found out that the range of capital letters was 65-90. So now I knew I would have to limit the randomness to 65-90 only. After I modified the code to do this I still had to figure out how to make it print characters and not numbers. I had to do this by changing the variable from int to char.
